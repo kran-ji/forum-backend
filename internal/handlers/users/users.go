@@ -5,9 +5,10 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/CVWO/sample-go-app/internal/api"
-	users "github.com/CVWO/sample-go-app/internal/dataaccess"
-	"github.com/CVWO/sample-go-app/internal/database"
+	"forum/internal/api"
+	users "forum/internal/dataaccess"
+	"forum/internal/database"
+
 	"github.com/pkg/errors"
 )
 

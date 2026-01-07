@@ -1,7 +1,8 @@
 package router
 
 import (
-	"github.com/CVWO/sample-go-app/internal/routes"
+	"forum/internal/routes"
+
 	"github.com/go-chi/chi/v5"
 )
 

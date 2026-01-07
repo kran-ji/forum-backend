@@ -1,8 +1,8 @@
 package users
 
 import (
-	"github.com/CVWO/sample-go-app/internal/database"
-	"github.com/CVWO/sample-go-app/internal/models"
+	"forum/internal/database"
+	"forum/internal/models"
 )
 
 func List(db *database.Database) ([]models.User, error) {
